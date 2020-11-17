@@ -36,7 +36,7 @@ const HeaderPage = ({background, textColor}: HeaderPageProps): JSX.Element => {
       </IconButton>
       <ul>
         <li><a href={'/'} style={{color: textColor}}>Home</a></li>
-        <li><a href={'/projects'} style={{color: textColor}}>Projects</a></li>
+        <li><a href={'projects'} style={{color: textColor}}>Projects</a></li>
         <li>
           <a href={'/contacts'}>
             <button>Contact</button>

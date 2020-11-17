@@ -10,7 +10,7 @@ export interface RoutesType {
 }
 
 export default [
-  {key: 'HomePage', path: '/portfolio', component: HomePage},
-  {key: 'Contacts', path: '/portfolio/contacts', component: Contacts},
-  {key: 'Projects', path: '/portfolio/projects', component: Projects},
+  {key: 'HomePage', path: '/', component: HomePage},
+  {key: 'Contacts', path: '/contacts', component: Contacts},
+  {key: 'Projects', path: '/projects', component: Projects},
 ];
