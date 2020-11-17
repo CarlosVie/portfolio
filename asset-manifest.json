@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b9014b7e.chunk.css",
+    "main.js": "/portfolio/static/js/main.7145637b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7145637b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.be3a5d97.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.be3a5d97.js.map",
+    "static/css/2.3ff4958d.chunk.css": "/portfolio/static/css/2.3ff4958d.chunk.css",
+    "static/js/2.38fa9b52.chunk.js": "/portfolio/static/js/2.38fa9b52.chunk.js",
+    "static/js/2.38fa9b52.chunk.js.map": "/portfolio/static/js/2.38fa9b52.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.cb2a551dd6a8c75ee51ce9e51c9cbd7f.js": "/portfolio/precache-manifest.cb2a551dd6a8c75ee51ce9e51c9cbd7f.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.3ff4958d.chunk.css.map": "/portfolio/static/css/2.3ff4958d.chunk.css.map",
+    "static/css/main.b9014b7e.chunk.css.map": "/portfolio/static/css/main.b9014b7e.chunk.css.map",
+    "static/js/2.38fa9b52.chunk.js.LICENSE.txt": "/portfolio/static/js/2.38fa9b52.chunk.js.LICENSE.txt",
+    "static/media/background.jpg": "/portfolio/static/media/background.8e04e801.jpg",
+    "static/media/devil.svg": "/portfolio/static/media/devil.c6ade85f.svg",
+    "static/media/error.svg": "/portfolio/static/media/error.6695af99.svg",
+    "static/media/logo-bm2.png": "/portfolio/static/media/logo-bm2.ea46f4d4.png",
+    "static/media/logo-hpl.png": "/portfolio/static/media/logo-hpl.3ca3d2d5.png",
+    "static/media/logo-nat.png": "/portfolio/static/media/logo-nat.59bd8166.png",
+    "static/media/logo-proj.svg": "/portfolio/static/media/logo-proj.97aa0d38.svg",
+    "static/media/map.png": "/portfolio/static/media/map.88b899a7.png",
+    "static/media/proj-bmw.jpg": "/portfolio/static/media/proj-bmw.d1b39af2.jpg",
+    "static/media/proj-cryt.jpg": "/portfolio/static/media/proj-cryt.5a16e1d4.jpg",
+    "static/media/proj-hpl.jpg": "/portfolio/static/media/proj-hpl.94700924.jpg",
+    "static/media/proj-nat.jpg": "/portfolio/static/media/proj-nat.8f63188f.jpg",
+    "static/media/proj-portf.jpg": "/portfolio/static/media/proj-portf.6aec4632.jpg",
+    "static/media/proj-weat.jpg": "/portfolio/static/media/proj-weat.6840563a.jpg",
+    "static/media/styles.css": "/portfolio/static/media/revicons.2feb69cc.eot",
+    "static/media/smiling.svg": "/portfolio/static/media/smiling.4e5c267d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be3a5d97.js",
+    "static/css/2.3ff4958d.chunk.css",
+    "static/js/2.38fa9b52.chunk.js",
+    "static/css/main.b9014b7e.chunk.css",
+    "static/js/main.7145637b.chunk.js"
+  ]
+}
