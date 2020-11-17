@@ -1,4 +1,5 @@
 {
+  "homepage": "http://CarlosVie.github.io/portfolio",
   "name": "website-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -21,6 +22,7 @@
     "final-form": "^4.19.1",
     "framer": "^1.1.7",
     "framer-motion": "^1.10.3",
+    "gh-pages": "^3.1.0",
     "history": "5.0.0",
     "immer": "^6.0.3",
     "immer-reducer": "^0.7.10",
@@ -75,6 +77,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
