@@ -51,8 +51,17 @@ export const StyledSHero = styled.div`
     }
     
     p {
+      position: absolute;
       font-size: 10px;
       height: 75px;
+      top: 40%;
+    }
+    
+    img {
+      max-height: 20px;
+      position: absolute;
+      left: 50%;
+      top: 15%
     }
   }
 `;

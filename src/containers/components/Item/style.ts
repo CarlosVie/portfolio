@@ -8,10 +8,6 @@ const StyledItem = styled.div`
   justify-content: center;
   margin: 10px;
   cursor: pointer;
-  
-   @media (max-width: 750px) {
-    height: 60vh;
-   }
 
   .item {
     display: flex;
@@ -31,25 +27,31 @@ const StyledItem = styled.div`
     h1 {
       position: absolute;
       top: 40%;
-      left: 45%;
+      left: 55%;
       font-family: 'Bebas Neue', cursive;
       font-size: 70px;
     }
     
     @media (max-width: 750px) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+      
       h1 {
-        font-size: 20px;
-        top: 20%;
+          position: initial;
+          font-size: 10vw;
+          grid-row: initial;
       }
       
-      img{
-        height: 40%;
+      img {
+        padding-bottom: 15px;
+        position: initial;
       }
+    
     }
-  }
+ }
 `;
 
 export default StyledItem;
