@@ -10,8 +10,8 @@ const Item = ({data}: ItemProps): JSX.Element => {
   return (
     <StyledItem>
       <div className={'item'}>
-        <h1 >{data.name}</h1>
         <img src={data.img} alt={data.name}/>
+        <h1 >{data.name}</h1>
       </div>
     </StyledItem>
   );

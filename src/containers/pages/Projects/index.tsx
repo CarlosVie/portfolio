@@ -12,7 +12,7 @@ const Projects = (): JSX.Element => {
   const data = PROJECTS_INFO;
   return (
     <StyledProjectPage>
-      <HeaderPage background={'white'} textColor={'black'}/>
+      <HeaderPage background={'white'} textColor={'black'} menuIconColor={'black'}/>
       <div style={{
         background: 'url(' + require('../../../assets/background.jpg') + ')',
         backgroundRepeat: 'no-repeat'

@@ -33,12 +33,17 @@ const StyledItem = styled.div`
     }
     
     @media (max-width: 750px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: last;
       h1 {
-        font-size: 40px;
+        font-size: 20px;
+        top: 20%;
       }
+      
       img{
-        width: 80%;
-        height: 70%;
+        height: 40%;
       }
     }
   }

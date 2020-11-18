@@ -33,7 +33,7 @@ const Contacts = (): JSX.Element => {
   
   return (
     <StyledContacts>
-      <HeaderPage background={'white'} textColor={'black'}/>
+      <HeaderPage background={'white'} textColor={'black'} menuIconColor={'black'}/>
       <div className={'body'}>
         
         <div className={'map'}

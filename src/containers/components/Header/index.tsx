@@ -6,9 +6,10 @@ import MenuIcon from '@material-ui/icons/Menu';
 interface HeaderPageProps {
   background?: string,
   textColor?: string,
+  menuIconColor?: string,
 }
 
-const HeaderPage = ({background, textColor}: HeaderPageProps): JSX.Element => {
+const HeaderPage = ({background, textColor, menuIconColor}: HeaderPageProps): JSX.Element => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -22,7 +23,7 @@ const HeaderPage = ({background, textColor}: HeaderPageProps): JSX.Element => {
   
   return (
     <StyledDiv style={background !== undefined ? {background: background} : undefined}>
-      <a href={'/'}>
+      <a href={'/portfolio/#/'}>
         <h1 style={{color: textColor}}>C-A-O-S</h1>
       </a>
       <IconButton
@@ -32,7 +33,7 @@ const HeaderPage = ({background, textColor}: HeaderPageProps): JSX.Element => {
         aria-label="menu"
         component="span"
       >
-        <MenuIcon style={{color: 'white'}}/>
+        <MenuIcon style={menuIconColor !== undefined ? {color: menuIconColor} : {color: 'white'}}/>
       </IconButton>
       <ul>
         <li><a href={'/portfolio/#/'} style={{color: textColor}}>Home</a></li>
@@ -44,7 +45,6 @@ const HeaderPage = ({background, textColor}: HeaderPageProps): JSX.Element => {
         </li>
       </ul>
       <Menu
-        className={'Menu'}
         id="simple-menu"
         anchorEl={anchorEl}
         keepMounted
