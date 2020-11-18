@@ -41,6 +41,23 @@ const StyledContacts = styled.div`
     
   }
   
+  @media (max-width: 750px) {
+    .body {
+      .map {
+        width: 350px;
+      }
+      width: 100%;
+      .contacts {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        .info{
+          width: 350px;
+        }
+      }
+    }
+  }
+  
 `;
 
 export default StyledContacts;
