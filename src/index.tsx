@@ -14,7 +14,7 @@ const store = configureStore(initialState, history);
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
-      <HashRouter>
+      <HashRouter >
         <body className={'appBody'}>
         <App/>
         </body>

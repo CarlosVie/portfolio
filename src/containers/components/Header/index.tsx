@@ -35,10 +35,10 @@ const HeaderPage = ({background, textColor}: HeaderPageProps): JSX.Element => {
         <MenuIcon style={{color: 'white'}}/>
       </IconButton>
       <ul>
-        <li><a href={'/'} style={{color: textColor}}>Home</a></li>
-        <li><a href={'/#/projects'} style={{color: textColor}}>Projects</a></li>
+        <li><a href={'/portfolio/#/'} style={{color: textColor}}>Home</a></li>
+        <li><a href={'/portfolio/#/projects'} style={{color: textColor}}>Projects</a></li>
         <li>
-          <a href={'/#/contacts'}>
+          <a href={'/portfolio/#/contacts'}>
             <button>Contact</button>
           </a>
         </li>
@@ -51,9 +51,9 @@ const HeaderPage = ({background, textColor}: HeaderPageProps): JSX.Element => {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <StyledMenuItem onClick={handleClose}><a href={'/'}>Home</a></StyledMenuItem>
-        <StyledMenuItem onClick={handleClose}><a href={'/#//projects'}>Projects</a></StyledMenuItem>
-        <StyledMenuItem onClick={handleClose}><a href={'/#//contacts'}>Contacts</a></StyledMenuItem>
+        <StyledMenuItem onClick={handleClose}><a href={'/portfolio/#/'}>Home</a></StyledMenuItem>
+        <StyledMenuItem onClick={handleClose}><a href={'/portfolio/#/projects'}>Projects</a></StyledMenuItem>
+        <StyledMenuItem onClick={handleClose}><a href={'/portfolio/#/contacts'}>Contacts</a></StyledMenuItem>
       </Menu>
     </StyledDiv>
   );
