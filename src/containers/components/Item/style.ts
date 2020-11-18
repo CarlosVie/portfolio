@@ -8,6 +8,10 @@ const StyledItem = styled.div`
   justify-content: center;
   margin: 10px;
   cursor: pointer;
+  
+   @media (max-width: 750px) {
+    height: 60vh;
+   }
 
   .item {
     display: flex;
@@ -36,7 +40,6 @@ const StyledItem = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: last;
       h1 {
         font-size: 20px;
         top: 20%;

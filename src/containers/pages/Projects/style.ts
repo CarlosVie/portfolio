@@ -14,6 +14,7 @@ const StyledProjectPage = styled.div `
       font-size: 35px;
     }
   }
+
 `;
 
 export default StyledProjectPage;
