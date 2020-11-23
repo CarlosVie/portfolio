@@ -38,7 +38,8 @@ const StyledItem = styled.div`
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
-      
+    margin: 10px;
+    padding: 20px;
       h1 {
           position: initial;
           font-size: 10vw;
