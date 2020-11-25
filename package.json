@@ -62,7 +62,8 @@
     "styled-loaders-react": "latest",
     "typesafe-actions": "4.4.0",
     "typescript": "4.0.5",
-    "use-smooth-scroll": "^1.1.1"
+    "use-smooth-scroll": "^1.1.1",
+    "vanilla-tilt": "^1.7.0"
   },
   "devDependencies": {
     "@material-ui/core": "^4.9.12",

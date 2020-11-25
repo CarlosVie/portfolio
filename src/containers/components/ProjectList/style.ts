@@ -16,7 +16,8 @@ const StyleProjectList = styled.div`
   }
   
   @media (max-width: 750px) {
-    padding: 0;
+    padding: 30px;
+    margin: 0 auto;
   }
 `;
 

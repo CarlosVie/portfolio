@@ -16,7 +16,7 @@ interface Data {
 
 const Timeline = ({data}: TimelineProps): JSX.Element => {
   useEffect(() => {
-    Aos.init({duration: 3000});
+    Aos.init({duration: 4000});
   }, []);
   
   return (

@@ -26,15 +26,7 @@ const HeaderPage = ({background, textColor, menuIconColor}: HeaderPageProps): JS
       <a href={'/portfolio/#/'}>
         <h1 style={{color: textColor}}>C-A-O-S</h1>
       </a>
-      <IconButton
-        onClick={handleClick}
-        className={'menu'}
-        id={'menu'}
-        aria-label="menu"
-        component="span"
-      >
-        <MenuIcon style={menuIconColor !== undefined ? {color: menuIconColor} : {color: 'white'}}/>
-      </IconButton>
+     
       <ul>
         <li><a href={'/portfolio/#/'} style={{color: textColor}}>Home</a></li>
         <li><a href={'/portfolio/#/projects'} style={{color: textColor}}>Projects</a></li>
@@ -44,6 +36,16 @@ const HeaderPage = ({background, textColor, menuIconColor}: HeaderPageProps): JS
           </a>
         </li>
       </ul>
+  
+      <IconButton
+        onClick={handleClick}
+        className={'menu'}
+        id={'menu'}
+        aria-label="menu"
+        component="span"
+      >
+        <MenuIcon style={menuIconColor !== undefined ? {color: menuIconColor} : {color: 'white'}}/>
+      </IconButton>
       <Menu
         id="simple-menu"
         anchorEl={anchorEl}
