@@ -23,7 +23,7 @@ const HeaderPage = ({background, textColor, menuIconColor}: HeaderPageProps): JS
   
   return (
     <StyledDiv style={background !== undefined ? {background: background} : undefined}>
-      <a href={'/portfolio/#/'}>
+      <a href={'/#/'}>
         <h1 style={{color: textColor}}>C-A-O-S</h1>
       </a>
      
